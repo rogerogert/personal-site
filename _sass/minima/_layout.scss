@@ -24,6 +24,14 @@
   }
 }
 
+.avatar{
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
