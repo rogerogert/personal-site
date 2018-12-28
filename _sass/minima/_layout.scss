@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 5px solid $green-color;
+  border-bottom: 1px solid $green-color-dark;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -20,7 +20,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $green-color-dark;
   }
 }
 
@@ -59,7 +59,7 @@
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $green-color;
     border-radius: 5px;
     text-align: right;
 
@@ -114,13 +114,24 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $green-color;
   padding: $spacing-unit / 4;
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+}
+
+.footer {
+  text-decoration: none !important;
+}
+.text-muted {
+  color: #6b6b6b;
+  text-align: center;
+}
+div.footer{
+  border-bottom: 5px solid $green-color;
 }
 
 .contact-list,
